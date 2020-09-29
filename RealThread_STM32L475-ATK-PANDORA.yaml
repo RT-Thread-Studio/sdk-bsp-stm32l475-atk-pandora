@@ -1,6 +1,6 @@
 ---
 yaml_version: 2
-pkg_version: 0.1.2
+pkg_version: 1.0.0
 pkg_vendor: RealThread
 pkg_type: Board_Support_Packages
 board:
@@ -15,10 +15,10 @@ board:
     is also an IoT development board designated by ATK and RT-Thread.
   small_image: documents/images/board_small.png
   large_image: documents/images/board_large.png
-  sale_contact_cn: http://www.st.com/stonline/contactus/contacts/index.php
-  sale_contact_global: http://www.st.com/stonline/contactus/contacts/index.php
-  buy_url_cn: http://www.alientek.com/
-  buy_url_global: http://www.alientek.com/
+  sale_contact_cn: http://www.alientek.com/
+  sale_contact_global: http://www.alientek.com/
+  buy_url_cn: https://detail.tmall.com/item.htm?id=609759187128
+  buy_url_global: https://detail.tmall.com/item.htm?id=609759187128
   price_cn: 238.00 CNY
   price_global: 35.00 USD
   debugger: ST-LINK
@@ -119,7 +119,7 @@ default_projects:
     - include
     - libcpu/arm
     - libcpu/Kconfig
-    - libcpu/Sconscript
+    - libcpu/SConscript
     - src
     - tools
     - Kconfig
@@ -177,7 +177,7 @@ default_projects:
     - include
     - libcpu/arm
     - libcpu/Kconfig
-    - libcpu/Sconscript
+    - libcpu/SConscript
     - src
     - tools
     - Kconfig
@@ -235,7 +235,7 @@ default_projects:
     - include
     - libcpu/arm
     - libcpu/Kconfig
-    - libcpu/Sconscript
+    - libcpu/SConscript
     - src
     - tools
     - Kconfig
